@@ -7,6 +7,10 @@
   packages = [
     pkgs.nodejs_22
     pkgs.python3
+    pkgs.git
+    pkgs.android-tools
+    pkgs.javaPackages.compiler.temurin-bin.jre-8
+    pkgs.hyprland-autoname-workspaces
   ];
   # Sets environment variables in the workspace
   env = {};
